@@ -1,0 +1,53 @@
+body {
+    background-color: #6959cd;
+}
+
+.menu  li {
+    display: inline;
+    padding: 16ppx;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    font-size: 30px;
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+    
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.wh-700 {
+    width: 600px;
+    height: 400px;
+}
+
+.br-50 {
+    border-radius: 50px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.tm-social {
+    width: 200px;
+    height: 200px;
+}
